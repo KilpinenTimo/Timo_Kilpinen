@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+      }
+      .flexContainer > div,div{
+          background-color: bisque;
+          margin: 10px;
+          width: fit-content;
+      }
+      header,footer{
+          background-color: green;
+          height: 70px;
+      }
+    </style>
+</head>
+<body>
+    <header>this id going to be our header</header>
+    <division class="flexContainer">
+<p>Hello world</p>
+<p>Hello world</p>
+<p>Hello world</p>
+ 
+<div>
+    divsion1
+</div>
+    <div>division</div>
+    <div>divsion</div>
+    <footer>
+        <p>this is our footer</p>
+    </footer>
+</body>
+</html>

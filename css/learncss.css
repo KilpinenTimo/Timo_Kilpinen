@@ -43,6 +43,7 @@ article >p{
 .notebox{
     border: 5px solid black;
     padding: 0.5em;
+    width: fit-content;
 }
 
 .notebox.warning{
@@ -55,4 +56,17 @@ article >p{
     font-size: large;
     font-weight: bold;
 }
+header{
+    background-color: blueviolet;
+}
+mytitle{
+    background-color: chocolate;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+
 
