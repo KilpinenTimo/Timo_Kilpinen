@@ -1,1 +1,10 @@
-
+h1{
+    text-align: center;
+    color: red;
+}
+body{
+    background-color: rgb(20, 8, 8);
+}
+.col{
+    color: white;
+}
